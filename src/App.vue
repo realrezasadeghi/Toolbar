@@ -1,5 +1,5 @@
 <template>
-  <Toolbar @select-mode="selectMode" />
+  <toolbar @select-mode="selectMode" />
   <div class="text-center p-2">
     <span class="text-select-mode">Chosen Mode : {{ text }}</span>
   </div>
